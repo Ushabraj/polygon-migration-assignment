@@ -1,0 +1,1133 @@
+[INFO] 2026-10-07 13:50:05,646 views | Entered index view with method=GET
+[INFO] 2026-10-07 13:50:05,651 views | Exiting index view
+[INFO] 2026-10-07 13:59:39,966 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 13:59:39,966 views | POST data: polygon_id=596244, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 13:59:39,966 views | All POST data: {'csrfmiddlewaretoken': ['inKlIQ7LXWvUz8z2JRYuqvGiZbk1Pio9loMqYKx2LsneT6kY2UCGj72sqpLfr11D'], 'problem_id': ['596244']}
+[INFO] 2026-10-07 13:59:39,966 views | Processing polygon_id=596244
+[INFO] 2026-10-07 14:02:50,134 views | Entered index view with method=GET
+[INFO] 2026-10-07 14:02:50,145 views | Exiting index view
+[INFO] 2026-10-07 14:03:02,727 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 14:03:02,729 views | POST data: polygon_id=596244, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 14:03:02,729 views | All POST data: {'csrfmiddlewaretoken': ['ihSmHaqQ5Pv1YKT5lencZY8NIeXvnDraliUrX4Q7TlnliIE1Eh1oSAuX9soJZm4E'], 'problem_id': ['596244']}
+[INFO] 2026-10-07 14:03:02,729 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 14:03:02,729 views | db_problem=None
+[INFO] 2026-10-07 14:03:02,729 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 14:03:03,587 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 14:03:03,587 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 14:03:03,588 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 14:03:03,590 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 14:03:04,734 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 14:03:05,676 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpeqit08di
+[ERROR] 2026-10-07 14:03:05,677 views | Exception in index view: Error downloading/extracting package: No packages available for this problem
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 157, in download_and_extract_package
+    raise Exception("No packages available for this problem")
+Exception: No packages available for this problem
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 253, in index
+    problem_html_content = api.download_and_extract_package(polygon_id)
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 234, in download_and_extract_package
+    raise Exception(f"Error downloading/extracting package: {e}")
+Exception: Error downloading/extracting package: No packages available for this problem
+[INFO] 2026-10-07 14:03:07,748 polygon_api | Cleared 0 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 14:03:07,748 views | Exiting index view
+[INFO] 2026-10-07 14:07:25,373 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 14:07:25,378 views | POST data: polygon_id=596244, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 14:07:25,378 views | All POST data: {'csrfmiddlewaretoken': ['aVkQE0BXmXXsFLwk5RT61Esk8jIq4hevdWmVUU1eatPMZJhgoUxiUgOuzx9EG0RZ'], 'problem_id': ['596244']}
+[INFO] 2026-10-07 14:07:25,378 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 14:07:25,383 views | db_problem=None
+[INFO] 2026-10-07 14:07:25,383 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 14:07:26,076 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 14:07:26,076 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 14:07:26,076 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 14:07:26,076 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 14:07:26,842 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 14:07:27,349 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpb9mpkao6
+[ERROR] 2026-10-07 14:07:27,349 views | Exception in index view: Error downloading/extracting package: No packages available for this problem
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 157, in download_and_extract_package
+    raise Exception("No packages available for this problem")
+Exception: No packages available for this problem
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 253, in index
+    problem_html_content = api.download_and_extract_package(polygon_id)
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 234, in download_and_extract_package
+    raise Exception(f"Error downloading/extracting package: {e}")
+Exception: Error downloading/extracting package: No packages available for this problem
+[INFO] 2026-10-07 14:07:29,375 polygon_api | Cleared 0 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 14:07:29,375 views | Exiting index view
+[INFO] 2026-10-07 14:17:09,834 views | Entered index view with method=GET
+[INFO] 2026-10-07 14:17:09,838 views | Exiting index view
+[INFO] 2026-10-07 14:17:18,878 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 14:17:18,881 views | POST data: polygon_id=596244, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 14:17:18,881 views | All POST data: {'csrfmiddlewaretoken': ['ZTBeAV0vjXdmJccTSP4ptD0SRrH4ZWnB2UDjQPqM7t5G3aXPbSIBmfm2iF8iBF05'], 'problem_id': ['596244']}
+[INFO] 2026-10-07 14:17:18,881 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 14:17:18,890 views | db_problem=None
+[INFO] 2026-10-07 14:17:18,891 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 14:17:19,563 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 14:17:19,563 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 14:17:19,563 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 14:17:19,563 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 14:17:20,131 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 14:17:22,288 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 14:17:22,305 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpf5d3g3jo
+[DEBUG] 2026-10-07 14:17:22,305 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 14:17:22,305 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 14:17:22,315 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 14:17:22,315 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 14:17:22,315 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 14:17:22,317 polygon_api | Fetching all test cases for 596244, testset
+[INFO] 2026-10-07 14:17:22,902 polygon_api | Found 13 test cases to process
+[INFO] 2026-10-07 14:17:22,903 polygon_api | Processing test case 1/13 (index: 1)
+[DEBUG] 2026-10-07 14:17:22,903 polygon_api | Fetching input for test case 1
+[DEBUG] 2026-10-07 14:17:23,515 polygon_api | Fetching output for test case 1
+[INFO] 2026-10-07 14:17:24,112 polygon_api | Successfully fetched test case 1 - Input length: 5, Output length: 4
+[INFO] 2026-10-07 14:17:24,112 polygon_api | Processing test case 2/13 (index: 2)
+[DEBUG] 2026-10-07 14:17:24,112 polygon_api | Fetching input for test case 2
+[DEBUG] 2026-10-07 14:17:24,816 polygon_api | Fetching output for test case 2
+[INFO] 2026-10-07 14:17:25,336 polygon_api | Successfully fetched test case 2 - Input length: 7, Output length: 4
+[INFO] 2026-10-07 14:17:25,336 polygon_api | Processing test case 3/13 (index: 3)
+[DEBUG] 2026-10-07 14:17:25,336 polygon_api | Fetching input for test case 3
+[DEBUG] 2026-10-07 14:17:25,782 polygon_api | Fetching output for test case 3
+[INFO] 2026-10-07 14:17:26,243 polygon_api | Successfully fetched test case 3 - Input length: 7, Output length: 3
+[INFO] 2026-10-07 14:17:26,243 polygon_api | Processing test case 4/13 (index: 4)
+[DEBUG] 2026-10-07 14:17:26,244 polygon_api | Fetching input for test case 4
+[DEBUG] 2026-10-07 14:17:26,648 polygon_api | Fetching output for test case 4
+[INFO] 2026-10-07 14:17:27,065 polygon_api | Successfully fetched test case 4 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 14:17:27,065 polygon_api | Processing test case 5/13 (index: 5)
+[DEBUG] 2026-10-07 14:17:27,065 polygon_api | Fetching input for test case 5
+[DEBUG] 2026-10-07 14:17:27,769 polygon_api | Fetching output for test case 5
+[INFO] 2026-10-07 14:17:28,438 polygon_api | Successfully fetched test case 5 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 14:17:28,438 polygon_api | Processing test case 6/13 (index: 6)
+[DEBUG] 2026-10-07 14:17:28,438 polygon_api | Fetching input for test case 6
+[DEBUG] 2026-10-07 14:17:29,101 polygon_api | Fetching output for test case 6
+[INFO] 2026-10-07 14:17:29,569 polygon_api | Successfully fetched test case 6 - Input length: 7, Output length: 6
+[INFO] 2026-10-07 14:17:29,569 polygon_api | Processing test case 7/13 (index: 7)
+[DEBUG] 2026-10-07 14:17:29,569 polygon_api | Fetching input for test case 7
+[DEBUG] 2026-10-07 14:17:29,996 polygon_api | Fetching output for test case 7
+[INFO] 2026-10-07 14:17:30,649 polygon_api | Successfully fetched test case 7 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 14:17:30,649 polygon_api | Processing test case 8/13 (index: 8)
+[DEBUG] 2026-10-07 14:17:30,649 polygon_api | Fetching input for test case 8
+[DEBUG] 2026-10-07 14:17:31,303 polygon_api | Fetching output for test case 8
+[INFO] 2026-10-07 14:17:31,930 polygon_api | Successfully fetched test case 8 - Input length: 15, Output length: 8
+[INFO] 2026-10-07 14:17:31,930 polygon_api | Processing test case 9/13 (index: 9)
+[DEBUG] 2026-10-07 14:17:31,931 polygon_api | Fetching input for test case 9
+[DEBUG] 2026-10-07 14:17:32,532 polygon_api | Fetching output for test case 9
+[INFO] 2026-10-07 14:17:33,182 polygon_api | Successfully fetched test case 9 - Input length: 17, Output length: 9
+[INFO] 2026-10-07 14:17:33,194 polygon_api | Processing test case 10/13 (index: 10)
+[DEBUG] 2026-10-07 14:17:33,194 polygon_api | Fetching input for test case 10
+[DEBUG] 2026-10-07 14:17:33,797 polygon_api | Fetching output for test case 10
+[INFO] 2026-10-07 14:17:34,798 polygon_api | Successfully fetched test case 10 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 14:17:34,798 polygon_api | Processing test case 11/13 (index: 11)
+[DEBUG] 2026-10-07 14:17:34,798 polygon_api | Fetching input for test case 11
+[DEBUG] 2026-10-07 14:17:35,431 polygon_api | Fetching output for test case 11
+[INFO] 2026-10-07 14:17:36,097 polygon_api | Successfully fetched test case 11 - Input length: 13, Output length: 7
+[INFO] 2026-10-07 14:17:36,097 polygon_api | Processing test case 12/13 (index: 12)
+[DEBUG] 2026-10-07 14:17:36,098 polygon_api | Fetching input for test case 12
+[DEBUG] 2026-10-07 14:17:36,781 polygon_api | Fetching output for test case 12
+[INFO] 2026-10-07 14:17:37,581 polygon_api | Successfully fetched test case 12 - Input length: 24, Output length: 3
+[INFO] 2026-10-07 14:17:37,581 polygon_api | Processing test case 13/13 (index: 13)
+[DEBUG] 2026-10-07 14:17:37,581 polygon_api | Fetching input for test case 13
+[DEBUG] 2026-10-07 14:17:38,883 polygon_api | Fetching output for test case 13
+[INFO] 2026-10-07 14:17:39,515 polygon_api | Successfully fetched test case 13 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 14:17:39,515 polygon_api | Completed fetching all 13 test cases for problem 596244
+[DEBUG] 2026-10-07 14:17:39,515 views | Fetched all test cases.
+[INFO] 2026-10-07 14:17:41,548 polygon_api | Stored 13 test cases in Redis for polygon_id 596244
+[DEBUG] 2026-10-07 14:17:42,113 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 14:17:42,113 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 14:17:42,780 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 14:17:42,780 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 14:17:42,780 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 14:17:43,381 views | test_case_count=13
+[INFO] 2026-10-07 14:17:43,381 views | Exiting index view
+[INFO] 2026-10-07 14:21:07,442 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 14:21:07,447 views | POST data: polygon_id=596244, migrate_to_azure=None, migrate_to_db=1, migrate_test_cases_to_db=None, difficulty=easy, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 14:21:07,448 views | All POST data: {'csrfmiddlewaretoken': ['HC1EtBx7uv8NkDJg9xX1mtHFgsmATtXaKD3JJvXoi107EBucsABdf53PHGNOvcAE'], 'problem_id': ['596244'], 'migrate_to_db': ['1'], 'difficulty': ['easy']}
+[INFO] 2026-10-07 14:21:07,448 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 14:21:07,454 views | db_problem=None
+[INFO] 2026-10-07 14:21:07,454 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 14:21:07,828 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 14:21:07,840 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 14:21:07,840 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 14:21:07,841 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 14:21:08,309 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 14:21:10,658 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 14:21:10,682 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpfuavt11t
+[DEBUG] 2026-10-07 14:21:10,682 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 14:21:10,682 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 14:21:10,684 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 14:21:10,684 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 14:21:10,684 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 14:21:12,713 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 14:21:12,714 views | Retrieved test cases from Redis for test case migration to DB (saved Polygon API call)
+[DEBUG] 2026-10-07 14:21:13,276 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 14:21:13,276 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 14:21:13,911 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 14:21:13,911 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 14:21:13,911 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 14:21:14,543 views | test_case_count=13
+[INFO] 2026-10-07 14:21:14,543 views | Starting DB migration for polygon_id=596244
+[INFO] 2026-10-07 14:21:14,543 views | Creating new Problem in DB
+[INFO] 2026-10-07 14:21:14,568 views | Processing tags for problem
+[DEBUG] 2026-10-07 14:21:14,568 views | Selected tags before processing: []
+[DEBUG] 2026-10-07 14:21:14,568 views | New tag before processing: 
+[DEBUG] 2026-10-07 14:21:14,579 views | Cleared existing tags for problem 1
+[DEBUG] 2026-10-07 14:21:14,581 views | Final tags after processing: []
+[INFO] 2026-10-07 14:21:16,609 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 14:21:16,609 views | Retrieved test cases from Redis for test case migration to DB (saved Polygon API call)
+[DEBUG] 2026-10-07 14:21:16,609 views | test_cases for DB migration.
+[DEBUG] 2026-10-07 14:21:16,609 views | sample_tests: [{'index': 1, 'input': '5 7\r\n', 'output': '12\r\n', 'description': 'Sample test 1', 'is_sample': True}, {'index': 2, 'input': '10 20\r\n', 'output': '30\r\n', 'description': 'Sample test 2', 'is_sample': True}, {'index': 3, 'input': '-5 10\r\n', 'output': '5\r\n', 'description': 'Sample test 3', 'is_sample': True}]
+[DEBUG] 2026-10-07 14:21:16,609 views | Sample test idx=0, input_data=5 7, output_data=12
+[DEBUG] 2026-10-07 14:21:16,609 views | Sample test idx=1, input_data=10 20, output_data=30
+[DEBUG] 2026-10-07 14:21:16,620 views | Sample test idx=2, input_data=-5 10, output_data=5
+[DEBUG] 2026-10-07 14:21:17,227 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 14:21:17,845 views | Exiting index view
+[INFO] 2026-10-07 14:22:29,843 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 14:22:29,843 views | POST data: polygon_id=596244, migrate_to_azure=1, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 14:22:29,843 views | All POST data: {'csrfmiddlewaretoken': ['IbsN60wxZBmLPe1VkXP23bdOZ0jm62LrLcuSmUWON7e59cMRD0teWNzYqeKAILoV'], 'problem_id': ['596244'], 'migrate_to_azure': ['1']}
+[INFO] 2026-10-07 14:22:29,843 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 14:22:29,861 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 14:22:31,187 views | Updated working copy: None
+[DEBUG] 2026-10-07 14:22:31,807 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 14:22:32,373 views | Azure migration triggered for polygon_id=596244
+[INFO] 2026-10-07 14:22:32,373 views | Problem found in DB, proceeding with Azure migration
+[INFO] 2026-10-07 14:22:32,373 views | Azure migration params: problem_id=1, container=None
+[INFO] 2026-10-07 14:22:32,373 polygon_api | pattern oj_dev_with_redis_storage_test_cases_1*
+[INFO] 2026-10-07 14:22:34,409 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 14:22:34,993 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 14:22:34,993 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 14:22:34,993 views | Calling migrate_to_azure_blob
+[INFO] 2026-10-07 14:22:36,033 polygon_api | Starting migrate_to_azure_blob for problem 596244
+[INFO] 2026-10-07 14:22:38,059 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 14:22:38,059 polygon_api | Retrieved test cases from Redis for Azure migration (saved Polygon API call)
+[INFO] 2026-10-07 14:22:38,059 polygon_api | Retrieved 13 test cases for Azure migration
+[INFO] 2026-10-07 14:22:38,059 AzureTestcase | Attempting to authenticate...
+[ERROR] 2026-10-07 14:22:38,059 AzureTestcase | An unexpected error occurred during initialization: Account URL must be a string.
+[ERROR] 2026-10-07 14:22:38,059 views | Azure migration failed: Account URL must be a string.
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client_helpers.py", line 17, in _parse_url
+    if not account_url.lower().startswith('http'):
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 223, in index
+    api.migrate_to_azure_blob(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 770, in migrate_to_azure_blob
+    blob_manager = AzureBlobManager(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\AzureTestcase.py", line 41, in __init__
+    self.blob_service_client = BlobServiceClient(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client.py", line 126, in __init__
+    parsed_url, sas_token = _parse_url(account_url=account_url)
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client_helpers.py", line 20, in _parse_url
+    raise ValueError("Account URL must be a string.") from exc
+ValueError: Account URL must be a string.
+[ERROR] 2026-10-07 14:22:38,073 views | Exception in index view: Account URL must be a string.
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client_helpers.py", line 17, in _parse_url
+    if not account_url.lower().startswith('http'):
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 223, in index
+    api.migrate_to_azure_blob(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 770, in migrate_to_azure_blob
+    blob_manager = AzureBlobManager(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\AzureTestcase.py", line 41, in __init__
+    self.blob_service_client = BlobServiceClient(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client.py", line 126, in __init__
+    parsed_url, sas_token = _parse_url(account_url=account_url)
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client_helpers.py", line 20, in _parse_url
+    raise ValueError("Account URL must be a string.") from exc
+ValueError: Account URL must be a string.
+[INFO] 2026-10-07 14:22:40,092 polygon_api | Cleared 14 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 14:22:40,092 views | Exiting index view
+[INFO] 2026-10-07 14:59:55,500 views | Entered index view with method=GET
+[INFO] 2026-10-07 14:59:55,503 views | Exiting index view
+[INFO] 2026-10-07 15:00:17,601 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 15:00:17,618 views | POST data: polygon_id=596244, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 15:00:17,618 views | All POST data: {'csrfmiddlewaretoken': ['tiwk8447pRBwj5lkKuT2DGjYVS6jzIvDfqsUDJP1OSCiamc1WGGBX3Xon3FBLW8x'], 'problem_id': ['596244']}
+[INFO] 2026-10-07 15:00:17,618 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 15:00:17,637 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 15:00:19,019 views | Updated working copy: None
+[DEBUG] 2026-10-07 15:00:19,617 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 15:00:20,184 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 15:00:20,567 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 15:00:20,582 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 15:00:20,583 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 15:00:20,583 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 15:00:20,988 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 15:00:23,618 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 15:00:23,631 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpmoo59l0m
+[DEBUG] 2026-10-07 15:00:23,634 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 15:00:23,635 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 15:00:23,654 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 15:00:23,654 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 15:00:23,654 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 15:00:23,654 polygon_api | Fetching all test cases for 596244, testset
+[INFO] 2026-10-07 15:00:24,134 polygon_api | Found 13 test cases to process
+[INFO] 2026-10-07 15:00:24,134 polygon_api | Processing test case 1/13 (index: 1)
+[DEBUG] 2026-10-07 15:00:24,134 polygon_api | Fetching input for test case 1
+[DEBUG] 2026-10-07 15:00:24,802 polygon_api | Fetching output for test case 1
+[INFO] 2026-10-07 15:00:25,318 polygon_api | Successfully fetched test case 1 - Input length: 5, Output length: 4
+[INFO] 2026-10-07 15:00:25,318 polygon_api | Processing test case 2/13 (index: 2)
+[DEBUG] 2026-10-07 15:00:25,318 polygon_api | Fetching input for test case 2
+[DEBUG] 2026-10-07 15:00:25,953 polygon_api | Fetching output for test case 2
+[INFO] 2026-10-07 15:00:26,385 polygon_api | Successfully fetched test case 2 - Input length: 7, Output length: 4
+[INFO] 2026-10-07 15:00:26,385 polygon_api | Processing test case 3/13 (index: 3)
+[DEBUG] 2026-10-07 15:00:26,385 polygon_api | Fetching input for test case 3
+[DEBUG] 2026-10-07 15:00:26,862 polygon_api | Fetching output for test case 3
+[INFO] 2026-10-07 15:00:27,336 polygon_api | Successfully fetched test case 3 - Input length: 7, Output length: 3
+[INFO] 2026-10-07 15:00:27,336 polygon_api | Processing test case 4/13 (index: 4)
+[DEBUG] 2026-10-07 15:00:27,336 polygon_api | Fetching input for test case 4
+[DEBUG] 2026-10-07 15:00:27,783 polygon_api | Fetching output for test case 4
+[INFO] 2026-10-07 15:00:28,252 polygon_api | Successfully fetched test case 4 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 15:00:28,252 polygon_api | Processing test case 5/13 (index: 5)
+[DEBUG] 2026-10-07 15:00:28,252 polygon_api | Fetching input for test case 5
+[DEBUG] 2026-10-07 15:00:28,672 polygon_api | Fetching output for test case 5
+[INFO] 2026-10-07 15:00:29,128 polygon_api | Successfully fetched test case 5 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 15:00:29,129 polygon_api | Processing test case 6/13 (index: 6)
+[DEBUG] 2026-10-07 15:00:29,129 polygon_api | Fetching input for test case 6
+[DEBUG] 2026-10-07 15:00:29,535 polygon_api | Fetching output for test case 6
+[INFO] 2026-10-07 15:00:29,969 polygon_api | Successfully fetched test case 6 - Input length: 7, Output length: 6
+[INFO] 2026-10-07 15:00:29,969 polygon_api | Processing test case 7/13 (index: 7)
+[DEBUG] 2026-10-07 15:00:29,969 polygon_api | Fetching input for test case 7
+[DEBUG] 2026-10-07 15:00:30,400 polygon_api | Fetching output for test case 7
+[INFO] 2026-10-07 15:00:30,925 polygon_api | Successfully fetched test case 7 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 15:00:30,925 polygon_api | Processing test case 8/13 (index: 8)
+[DEBUG] 2026-10-07 15:00:30,925 polygon_api | Fetching input for test case 8
+[DEBUG] 2026-10-07 15:00:31,434 polygon_api | Fetching output for test case 8
+[INFO] 2026-10-07 15:00:32,202 polygon_api | Successfully fetched test case 8 - Input length: 15, Output length: 8
+[INFO] 2026-10-07 15:00:32,202 polygon_api | Processing test case 9/13 (index: 9)
+[DEBUG] 2026-10-07 15:00:32,203 polygon_api | Fetching input for test case 9
+[DEBUG] 2026-10-07 15:00:32,653 polygon_api | Fetching output for test case 9
+[INFO] 2026-10-07 15:00:33,168 polygon_api | Successfully fetched test case 9 - Input length: 17, Output length: 9
+[INFO] 2026-10-07 15:00:33,168 polygon_api | Processing test case 10/13 (index: 10)
+[DEBUG] 2026-10-07 15:00:33,168 polygon_api | Fetching input for test case 10
+[DEBUG] 2026-10-07 15:00:33,635 polygon_api | Fetching output for test case 10
+[INFO] 2026-10-07 15:00:34,220 polygon_api | Successfully fetched test case 10 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 15:00:34,222 polygon_api | Processing test case 11/13 (index: 11)
+[DEBUG] 2026-10-07 15:00:34,222 polygon_api | Fetching input for test case 11
+[DEBUG] 2026-10-07 15:00:34,684 polygon_api | Fetching output for test case 11
+[INFO] 2026-10-07 15:00:36,551 polygon_api | Successfully fetched test case 11 - Input length: 13, Output length: 7
+[INFO] 2026-10-07 15:00:36,551 polygon_api | Processing test case 12/13 (index: 12)
+[DEBUG] 2026-10-07 15:00:36,551 polygon_api | Fetching input for test case 12
+[DEBUG] 2026-10-07 15:00:37,267 polygon_api | Fetching output for test case 12
+[INFO] 2026-10-07 15:00:38,902 polygon_api | Successfully fetched test case 12 - Input length: 24, Output length: 3
+[INFO] 2026-10-07 15:00:38,902 polygon_api | Processing test case 13/13 (index: 13)
+[DEBUG] 2026-10-07 15:00:38,902 polygon_api | Fetching input for test case 13
+[DEBUG] 2026-10-07 15:00:39,548 polygon_api | Fetching output for test case 13
+[INFO] 2026-10-07 15:00:40,273 polygon_api | Successfully fetched test case 13 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 15:00:40,274 polygon_api | Completed fetching all 13 test cases for problem 596244
+[DEBUG] 2026-10-07 15:00:40,274 views | Fetched all test cases.
+[INFO] 2026-10-07 15:00:42,330 polygon_api | Stored 13 test cases in Redis for polygon_id 596244
+[DEBUG] 2026-10-07 15:00:42,711 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 15:00:42,712 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 15:00:43,068 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 15:00:43,068 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 15:00:43,068 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 15:00:43,551 views | test_case_count=13
+[INFO] 2026-10-07 15:00:43,552 views | Exiting index view
+[INFO] 2026-10-07 15:00:58,002 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 15:00:58,002 views | POST data: polygon_id=596244, migrate_to_azure=1, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 15:00:58,002 views | All POST data: {'csrfmiddlewaretoken': ['PvXyHEOvv1P2BRZ4j0bE05qGoaWh3JMvBDT8cjzpU2QOs8QLvcYdks46QlvzfXpp'], 'problem_id': ['596244'], 'migrate_to_azure': ['1']}
+[INFO] 2026-10-07 15:00:58,002 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 15:00:58,023 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 15:00:59,135 views | Updated working copy: None
+[DEBUG] 2026-10-07 15:00:59,686 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 15:01:00,357 views | Azure migration triggered for polygon_id=596244
+[INFO] 2026-10-07 15:01:00,366 views | Problem found in DB, proceeding with Azure migration
+[INFO] 2026-10-07 15:01:00,366 views | Azure migration params: problem_id=1, container=None
+[INFO] 2026-10-07 15:01:00,366 polygon_api | pattern oj_dev_with_redis_storage_test_cases_1*
+[INFO] 2026-10-07 15:01:02,416 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 15:01:02,937 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 15:01:02,937 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 15:01:02,938 views | Calling migrate_to_azure_blob
+[INFO] 2026-10-07 15:01:02,938 polygon_api | Starting migrate_to_azure_blob for problem 596244
+[INFO] 2026-10-07 15:01:04,967 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 15:01:04,967 polygon_api | Retrieved test cases from Redis for Azure migration (saved Polygon API call)
+[INFO] 2026-10-07 15:01:04,967 polygon_api | Retrieved 13 test cases for Azure migration
+[INFO] 2026-10-07 15:01:04,967 AzureTestcase | Attempting to authenticate...
+[ERROR] 2026-10-07 15:01:04,984 AzureTestcase | An unexpected error occurred during initialization: Account URL must be a string.
+[ERROR] 2026-10-07 15:01:04,984 views | Azure migration failed: Account URL must be a string.
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client_helpers.py", line 17, in _parse_url
+    if not account_url.lower().startswith('http'):
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 223, in index
+    api.migrate_to_azure_blob(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 770, in migrate_to_azure_blob
+    blob_manager = AzureBlobManager(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\AzureTestcase.py", line 41, in __init__
+    self.blob_service_client = BlobServiceClient(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client.py", line 126, in __init__
+    parsed_url, sas_token = _parse_url(account_url=account_url)
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client_helpers.py", line 20, in _parse_url
+    raise ValueError("Account URL must be a string.") from exc
+ValueError: Account URL must be a string.
+[ERROR] 2026-10-07 15:01:04,988 views | Exception in index view: Account URL must be a string.
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client_helpers.py", line 17, in _parse_url
+    if not account_url.lower().startswith('http'):
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 223, in index
+    api.migrate_to_azure_blob(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 770, in migrate_to_azure_blob
+    blob_manager = AzureBlobManager(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\AzureTestcase.py", line 41, in __init__
+    self.blob_service_client = BlobServiceClient(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client.py", line 126, in __init__
+    parsed_url, sas_token = _parse_url(account_url=account_url)
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\azure\storage\blob\_blob_service_client_helpers.py", line 20, in _parse_url
+    raise ValueError("Account URL must be a string.") from exc
+ValueError: Account URL must be a string.
+[INFO] 2026-10-07 15:01:07,033 polygon_api | Cleared 14 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 15:01:07,033 views | Exiting index view
+[INFO] 2026-10-07 15:02:15,616 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 15:02:15,621 views | POST data: polygon_id=596244, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=1, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 15:02:15,621 views | All POST data: {'csrfmiddlewaretoken': ['PvXyHEOvv1P2BRZ4j0bE05qGoaWh3JMvBDT8cjzpU2QOs8QLvcYdks46QlvzfXpp'], 'problem_id': ['596244'], 'migrate_test_cases_to_db': ['1']}
+[INFO] 2026-10-07 15:02:15,621 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 15:02:15,626 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 15:02:17,183 views | Updated working copy: None
+[DEBUG] 2026-10-07 15:02:17,754 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 15:02:18,512 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 15:02:19,179 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 15:02:19,179 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 15:02:19,179 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 15:02:19,187 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 15:02:19,884 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 15:02:22,498 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 15:02:22,514 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpu0ke44zo
+[DEBUG] 2026-10-07 15:02:22,514 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 15:02:22,514 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 15:02:22,521 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 15:02:22,522 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 15:02:22,522 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 15:02:24,548 polygon_api | No test cases found in Redis for polygon_id 596244
+[WARNING] 2026-10-07 15:02:24,548 views | Test cases not found in Redis, fetching from Polygon
+[INFO] 2026-10-07 15:02:24,548 polygon_api | Fetching all test cases for 596244, testset
+[INFO] 2026-10-07 15:02:25,342 polygon_api | Found 13 test cases to process
+[INFO] 2026-10-07 15:02:25,342 polygon_api | Processing test case 1/13 (index: 1)
+[DEBUG] 2026-10-07 15:02:25,342 polygon_api | Fetching input for test case 1
+[DEBUG] 2026-10-07 15:02:26,117 polygon_api | Fetching output for test case 1
+[INFO] 2026-10-07 15:02:26,833 polygon_api | Successfully fetched test case 1 - Input length: 5, Output length: 4
+[INFO] 2026-10-07 15:02:26,833 polygon_api | Processing test case 2/13 (index: 2)
+[DEBUG] 2026-10-07 15:02:26,833 polygon_api | Fetching input for test case 2
+[DEBUG] 2026-10-07 15:02:27,632 polygon_api | Fetching output for test case 2
+[INFO] 2026-10-07 15:02:28,448 polygon_api | Successfully fetched test case 2 - Input length: 7, Output length: 4
+[INFO] 2026-10-07 15:02:28,448 polygon_api | Processing test case 3/13 (index: 3)
+[DEBUG] 2026-10-07 15:02:28,448 polygon_api | Fetching input for test case 3
+[DEBUG] 2026-10-07 15:02:29,199 polygon_api | Fetching output for test case 3
+[INFO] 2026-10-07 15:02:29,984 polygon_api | Successfully fetched test case 3 - Input length: 7, Output length: 3
+[INFO] 2026-10-07 15:02:29,986 polygon_api | Processing test case 4/13 (index: 4)
+[DEBUG] 2026-10-07 15:02:29,986 polygon_api | Fetching input for test case 4
+[DEBUG] 2026-10-07 15:02:31,002 polygon_api | Fetching output for test case 4
+[INFO] 2026-10-07 15:02:31,712 polygon_api | Successfully fetched test case 4 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 15:02:31,714 polygon_api | Processing test case 5/13 (index: 5)
+[DEBUG] 2026-10-07 15:02:31,714 polygon_api | Fetching input for test case 5
+[DEBUG] 2026-10-07 15:02:32,533 polygon_api | Fetching output for test case 5
+[INFO] 2026-10-07 15:02:33,242 polygon_api | Successfully fetched test case 5 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 15:02:33,242 polygon_api | Processing test case 6/13 (index: 6)
+[DEBUG] 2026-10-07 15:02:33,242 polygon_api | Fetching input for test case 6
+[DEBUG] 2026-10-07 15:02:34,077 polygon_api | Fetching output for test case 6
+[INFO] 2026-10-07 15:02:34,785 polygon_api | Successfully fetched test case 6 - Input length: 7, Output length: 6
+[INFO] 2026-10-07 15:02:34,785 polygon_api | Processing test case 7/13 (index: 7)
+[DEBUG] 2026-10-07 15:02:34,785 polygon_api | Fetching input for test case 7
+[DEBUG] 2026-10-07 15:02:35,617 polygon_api | Fetching output for test case 7
+[INFO] 2026-10-07 15:02:36,438 polygon_api | Successfully fetched test case 7 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 15:02:36,438 polygon_api | Processing test case 8/13 (index: 8)
+[DEBUG] 2026-10-07 15:02:36,438 polygon_api | Fetching input for test case 8
+[DEBUG] 2026-10-07 15:02:37,249 polygon_api | Fetching output for test case 8
+[INFO] 2026-10-07 15:02:39,609 polygon_api | Successfully fetched test case 8 - Input length: 15, Output length: 8
+[INFO] 2026-10-07 15:02:39,609 polygon_api | Processing test case 9/13 (index: 9)
+[DEBUG] 2026-10-07 15:02:39,609 polygon_api | Fetching input for test case 9
+[DEBUG] 2026-10-07 15:02:40,534 polygon_api | Fetching output for test case 9
+[INFO] 2026-10-07 15:02:41,282 polygon_api | Successfully fetched test case 9 - Input length: 17, Output length: 9
+[INFO] 2026-10-07 15:02:41,282 polygon_api | Processing test case 10/13 (index: 10)
+[DEBUG] 2026-10-07 15:02:41,282 polygon_api | Fetching input for test case 10
+[DEBUG] 2026-10-07 15:02:42,169 polygon_api | Fetching output for test case 10
+[INFO] 2026-10-07 15:02:42,989 polygon_api | Successfully fetched test case 10 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 15:02:42,989 polygon_api | Processing test case 11/13 (index: 11)
+[DEBUG] 2026-10-07 15:02:42,989 polygon_api | Fetching input for test case 11
+[DEBUG] 2026-10-07 15:02:43,831 polygon_api | Fetching output for test case 11
+[INFO] 2026-10-07 15:02:44,626 polygon_api | Successfully fetched test case 11 - Input length: 13, Output length: 7
+[INFO] 2026-10-07 15:02:44,626 polygon_api | Processing test case 12/13 (index: 12)
+[DEBUG] 2026-10-07 15:02:44,626 polygon_api | Fetching input for test case 12
+[DEBUG] 2026-10-07 15:02:45,548 polygon_api | Fetching output for test case 12
+[INFO] 2026-10-07 15:02:46,365 polygon_api | Successfully fetched test case 12 - Input length: 24, Output length: 3
+[INFO] 2026-10-07 15:02:46,365 polygon_api | Processing test case 13/13 (index: 13)
+[DEBUG] 2026-10-07 15:02:46,365 polygon_api | Fetching input for test case 13
+[DEBUG] 2026-10-07 15:02:47,131 polygon_api | Fetching output for test case 13
+[INFO] 2026-10-07 15:02:48,110 polygon_api | Successfully fetched test case 13 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 15:02:48,110 polygon_api | Completed fetching all 13 test cases for problem 596244
+[INFO] 2026-10-07 15:02:50,164 polygon_api | Stored 13 test cases in Redis for polygon_id 596244
+[DEBUG] 2026-10-07 15:02:51,096 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 15:02:51,098 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 15:02:51,772 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 15:02:51,772 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 15:02:51,780 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 15:02:52,712 views | test_case_count=13
+[INFO] 2026-10-07 15:02:54,764 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 15:02:54,764 views | Retrieved test cases from Redis for test case migration to DB (saved Polygon API call)
+[DEBUG] 2026-10-07 15:02:54,764 views | test_cases for DB migration.
+[DEBUG] 2026-10-07 15:02:54,780 views | Test case idx=0, input_data=5 7, output_data=12, is_sample=True, description=Sample test 1
+[DEBUG] 2026-10-07 15:02:54,780 views | Test case idx=0, truncated_input_length=3, truncated_output_length=2
+[DEBUG] 2026-10-07 15:02:54,788 views | Test case idx=1, input_data=10 20, output_data=30, is_sample=True, description=Sample test 2
+[DEBUG] 2026-10-07 15:02:54,788 views | Test case idx=1, truncated_input_length=5, truncated_output_length=2
+[DEBUG] 2026-10-07 15:02:54,788 views | Test case idx=2, input_data=-5 10, output_data=5, is_sample=True, description=Sample test 3
+[DEBUG] 2026-10-07 15:02:54,792 views | Test case idx=2, truncated_input_length=5, truncated_output_length=1
+[DEBUG] 2026-10-07 15:02:54,793 views | Test case idx=3, input_data=-10 -20, output_data=-30, is_sample=False, description=Regular test 1
+[DEBUG] 2026-10-07 15:02:54,793 views | Test case idx=3, truncated_input_length=7, truncated_output_length=3
+[DEBUG] 2026-10-07 15:02:54,793 views | Test case idx=4, input_data=100 200, output_data=300, is_sample=False, description=Regular test 2
+[DEBUG] 2026-10-07 15:02:54,793 views | Test case idx=4, truncated_input_length=7, truncated_output_length=3
+[DEBUG] 2026-10-07 15:02:54,793 views | Test case idx=5, input_data=999 1, output_data=1000, is_sample=False, description=Regular test 3
+[DEBUG] 2026-10-07 15:02:54,793 views | Test case idx=5, truncated_input_length=5, truncated_output_length=4
+[DEBUG] 2026-10-07 15:02:54,797 views | Test case idx=6, input_data=-100 50, output_data=-50, is_sample=False, description=Regular test 4
+[DEBUG] 2026-10-07 15:02:54,797 views | Test case idx=6, truncated_input_length=7, truncated_output_length=3
+[DEBUG] 2026-10-07 15:02:54,797 views | Test case idx=7, input_data=100000 200000, output_data=300000, is_sample=False, description=Regular test 5
+[DEBUG] 2026-10-07 15:02:54,800 views | Test case idx=7, truncated_input_length=13, truncated_output_length=6
+[DEBUG] 2026-10-07 15:02:54,800 views | Test case idx=8, input_data=-100000 -200000, output_data=-300000, is_sample=False, description=Regular test 6
+[DEBUG] 2026-10-07 15:02:54,800 views | Test case idx=8, truncated_input_length=15, truncated_output_length=7
+[DEBUG] 2026-10-07 15:02:54,803 views | Test case idx=9, input_data=1 1, output_data=2, is_sample=False, description=Regular test 7
+[DEBUG] 2026-10-07 15:02:54,803 views | Test case idx=9, truncated_input_length=3, truncated_output_length=1
+[DEBUG] 2026-10-07 15:02:54,804 views | Test case idx=10, input_data=12345 67890, output_data=80235, is_sample=False, description=Regular test 8
+[DEBUG] 2026-10-07 15:02:54,804 views | Test case idx=10, truncated_input_length=11, truncated_output_length=5
+[DEBUG] 2026-10-07 15:02:54,804 views | Test case idx=11, input_data=1000000000 -1000000000, output_data=0, is_sample=False, description=Regular test 9
+[DEBUG] 2026-10-07 15:02:54,804 views | Test case idx=11, truncated_input_length=22, truncated_output_length=1
+[DEBUG] 2026-10-07 15:02:54,804 views | Test case idx=12, input_data=0 0, output_data=0, is_sample=False, description=Regular test 10
+[DEBUG] 2026-10-07 15:02:54,804 views | Test case idx=12, truncated_input_length=3, truncated_output_length=1
+[INFO] 2026-10-07 15:02:54,812 views | Exiting index view
+[INFO] 2026-10-07 16:19:42,753 views | Entered index view with method=GET
+[INFO] 2026-10-07 16:19:42,753 views | Exiting index view
+[INFO] 2026-10-07 16:20:03,289 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:20:03,289 views | POST data: polygon_id=596244, migrate_to_storage=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:20:03,289 views | All POST data: {'csrfmiddlewaretoken': ['Y576AqFIzcl1JEg8cbiWKRH1JJ5N5NX8169bQk5ZnIdl3C14veW8Dt3baXw1HwAC'], 'problem_id': ['596244']}
+[INFO] 2026-10-07 16:20:03,289 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:20:03,309 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:20:04,952 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:20:05,698 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:20:06,329 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:20:07,044 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:20:07,044 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:20:07,044 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 16:20:07,047 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:20:07,754 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:20:10,269 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 16:20:10,281 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpoy1uyeti
+[DEBUG] 2026-10-07 16:20:10,281 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 16:20:10,281 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 16:20:10,286 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 16:20:10,286 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 16:20:10,286 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 16:20:10,286 polygon_api | Fetching all test cases for 596244, testset
+[INFO] 2026-10-07 16:20:11,052 polygon_api | Found 13 test cases to process
+[INFO] 2026-10-07 16:20:11,052 polygon_api | Processing test case 1/13 (index: 1)
+[DEBUG] 2026-10-07 16:20:11,052 polygon_api | Fetching input for test case 1
+[DEBUG] 2026-10-07 16:20:11,858 polygon_api | Fetching output for test case 1
+[INFO] 2026-10-07 16:20:13,035 polygon_api | Successfully fetched test case 1 - Input length: 5, Output length: 4
+[INFO] 2026-10-07 16:20:13,036 polygon_api | Processing test case 2/13 (index: 2)
+[DEBUG] 2026-10-07 16:20:13,036 polygon_api | Fetching input for test case 2
+[DEBUG] 2026-10-07 16:20:14,058 polygon_api | Fetching output for test case 2
+[INFO] 2026-10-07 16:20:14,870 polygon_api | Successfully fetched test case 2 - Input length: 7, Output length: 4
+[INFO] 2026-10-07 16:20:14,870 polygon_api | Processing test case 3/13 (index: 3)
+[DEBUG] 2026-10-07 16:20:14,870 polygon_api | Fetching input for test case 3
+[DEBUG] 2026-10-07 16:20:15,697 polygon_api | Fetching output for test case 3
+[INFO] 2026-10-07 16:20:16,516 polygon_api | Successfully fetched test case 3 - Input length: 7, Output length: 3
+[INFO] 2026-10-07 16:20:16,516 polygon_api | Processing test case 4/13 (index: 4)
+[DEBUG] 2026-10-07 16:20:16,516 polygon_api | Fetching input for test case 4
+[DEBUG] 2026-10-07 16:20:17,355 polygon_api | Fetching output for test case 4
+[INFO] 2026-10-07 16:20:17,989 polygon_api | Successfully fetched test case 4 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:20:17,989 polygon_api | Processing test case 5/13 (index: 5)
+[DEBUG] 2026-10-07 16:20:17,989 polygon_api | Fetching input for test case 5
+[DEBUG] 2026-10-07 16:20:18,802 polygon_api | Fetching output for test case 5
+[INFO] 2026-10-07 16:20:19,586 polygon_api | Successfully fetched test case 5 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:20:19,586 polygon_api | Processing test case 6/13 (index: 6)
+[DEBUG] 2026-10-07 16:20:19,586 polygon_api | Fetching input for test case 6
+[DEBUG] 2026-10-07 16:20:20,504 polygon_api | Fetching output for test case 6
+[INFO] 2026-10-07 16:20:21,327 polygon_api | Successfully fetched test case 6 - Input length: 7, Output length: 6
+[INFO] 2026-10-07 16:20:21,327 polygon_api | Processing test case 7/13 (index: 7)
+[DEBUG] 2026-10-07 16:20:21,327 polygon_api | Fetching input for test case 7
+[DEBUG] 2026-10-07 16:20:21,999 polygon_api | Fetching output for test case 7
+[INFO] 2026-10-07 16:20:22,856 polygon_api | Successfully fetched test case 7 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:20:22,864 polygon_api | Processing test case 8/13 (index: 8)
+[DEBUG] 2026-10-07 16:20:22,864 polygon_api | Fetching input for test case 8
+[DEBUG] 2026-10-07 16:20:23,548 polygon_api | Fetching output for test case 8
+[INFO] 2026-10-07 16:20:24,402 polygon_api | Successfully fetched test case 8 - Input length: 15, Output length: 8
+[INFO] 2026-10-07 16:20:24,402 polygon_api | Processing test case 9/13 (index: 9)
+[DEBUG] 2026-10-07 16:20:24,402 polygon_api | Fetching input for test case 9
+[DEBUG] 2026-10-07 16:20:25,225 polygon_api | Fetching output for test case 9
+[INFO] 2026-10-07 16:20:25,934 polygon_api | Successfully fetched test case 9 - Input length: 17, Output length: 9
+[INFO] 2026-10-07 16:20:25,934 polygon_api | Processing test case 10/13 (index: 10)
+[DEBUG] 2026-10-07 16:20:25,934 polygon_api | Fetching input for test case 10
+[DEBUG] 2026-10-07 16:20:26,755 polygon_api | Fetching output for test case 10
+[INFO] 2026-10-07 16:20:27,568 polygon_api | Successfully fetched test case 10 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 16:20:27,568 polygon_api | Processing test case 11/13 (index: 11)
+[DEBUG] 2026-10-07 16:20:27,568 polygon_api | Fetching input for test case 11
+[DEBUG] 2026-10-07 16:20:28,394 polygon_api | Fetching output for test case 11
+[INFO] 2026-10-07 16:20:29,399 polygon_api | Successfully fetched test case 11 - Input length: 13, Output length: 7
+[INFO] 2026-10-07 16:20:29,404 polygon_api | Processing test case 12/13 (index: 12)
+[DEBUG] 2026-10-07 16:20:29,404 polygon_api | Fetching input for test case 12
+[DEBUG] 2026-10-07 16:20:30,204 polygon_api | Fetching output for test case 12
+[INFO] 2026-10-07 16:20:30,994 polygon_api | Successfully fetched test case 12 - Input length: 24, Output length: 3
+[INFO] 2026-10-07 16:20:30,994 polygon_api | Processing test case 13/13 (index: 13)
+[DEBUG] 2026-10-07 16:20:30,994 polygon_api | Fetching input for test case 13
+[DEBUG] 2026-10-07 16:20:31,769 polygon_api | Fetching output for test case 13
+[INFO] 2026-10-07 16:20:32,620 polygon_api | Successfully fetched test case 13 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 16:20:32,620 polygon_api | Completed fetching all 13 test cases for problem 596244
+[DEBUG] 2026-10-07 16:20:32,620 views | Fetched all test cases.
+[INFO] 2026-10-07 16:20:34,690 polygon_api | Stored 13 test cases in Redis for polygon_id 596244
+[DEBUG] 2026-10-07 16:20:35,463 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 16:20:35,463 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 16:20:36,135 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 16:20:36,135 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 16:20:36,135 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 16:20:37,257 views | test_case_count=13
+[INFO] 2026-10-07 16:20:37,259 views | Exiting index view
+[INFO] 2026-10-07 16:21:40,939 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:21:40,939 views | POST data: polygon_id=596244, migrate_to_storage=None, migrate_to_db=None, migrate_test_cases_to_db=1, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:21:40,939 views | All POST data: {'csrfmiddlewaretoken': ['hlN0Zwromzv5r1i6qiWaBqvxI2AklQfwkmP5fqRFa5npLZ32JlAmu2RH9g1yXzS0'], 'problem_id': ['596244'], 'migrate_test_cases_to_db': ['1']}
+[INFO] 2026-10-07 16:21:40,939 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:21:40,948 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:21:42,134 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:21:42,934 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:21:43,705 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:21:44,134 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:21:44,134 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:21:44,134 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 16:21:44,134 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:21:45,084 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:21:48,801 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 16:21:48,812 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpenjn2dmg
+[DEBUG] 2026-10-07 16:21:48,816 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 16:21:48,816 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 16:21:48,817 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 16:21:48,817 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 16:21:48,817 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 16:21:50,851 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:21:50,851 views | Retrieved test cases from Redis for migration
+[DEBUG] 2026-10-07 16:21:51,605 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 16:21:51,605 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 16:21:52,400 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 16:21:52,400 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 16:21:52,400 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 16:21:53,317 views | test_case_count=13
+[INFO] 2026-10-07 16:21:55,368 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:21:55,368 views | Retrieved test cases from Redis for test case migration to DB
+[INFO] 2026-10-07 16:21:55,405 views | Exiting index view
+[INFO] 2026-10-07 16:22:00,618 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:22:00,618 views | POST data: polygon_id=596244, migrate_to_storage=1, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:22:00,618 views | All POST data: {'csrfmiddlewaretoken': ['MDAhBrw0qcqetY9NOK0cZ97OFtuW1lJEPECmRlWheIiyNWUJ7NEoSLtY6HVaD4m8'], 'problem_id': ['596244'], 'migrate_to_azure': ['1']}
+[INFO] 2026-10-07 16:22:00,618 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:22:00,636 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:22:02,053 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:22:02,912 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:22:03,888 views | Storage migration triggered for polygon_id=596244
+[INFO] 2026-10-07 16:22:03,888 views | Storage migration params: problem_id=1
+[INFO] 2026-10-07 16:22:03,888 polygon_api | pattern oj_dev_with_redis_storage_test_cases_1*
+[INFO] 2026-10-07 16:22:05,917 views | Calling migrate_to_storage
+[ERROR] 2026-10-07 16:22:05,917 views | Storage migration failed: No module named 'problems.storage'
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 406, in index
+    api.migrate_to_storage(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 747, in migrate_to_storage
+    from problems.storage import get_storage_manager
+ModuleNotFoundError: No module named 'problems.storage'
+[ERROR] 2026-10-07 16:22:05,917 views | Exception in index view: No module named 'problems.storage'
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 406, in index
+    api.migrate_to_storage(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 747, in migrate_to_storage
+    from problems.storage import get_storage_manager
+ModuleNotFoundError: No module named 'problems.storage'
+[INFO] 2026-10-07 16:22:07,950 polygon_api | Cleared 14 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:22:07,950 views | Exiting index view
+[INFO] 2026-10-07 16:35:57,524 views | Entered index view with method=GET
+[INFO] 2026-10-07 16:35:57,533 views | Exiting index view
+[INFO] 2026-10-07 16:36:10,583 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:36:10,587 views | POST data: polygon_id=596244, migrate_to_storage=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:36:10,587 views | All POST data: {'csrfmiddlewaretoken': ['ApUBCGOy1QOyWdn2qGWnDsiYJZFaQGH1DqWGSAePPmGSgb8YJJAzw4E8ad6ospkv'], 'problem_id': ['596244']}
+[INFO] 2026-10-07 16:36:10,587 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:36:10,593 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:36:12,219 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:36:13,038 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:36:13,671 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:36:14,255 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:36:14,265 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:36:14,265 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 16:36:14,266 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:36:14,913 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:36:18,075 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 16:36:18,089 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmp_092kdc7
+[DEBUG] 2026-10-07 16:36:18,089 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 16:36:18,089 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 16:36:18,097 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 16:36:18,097 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 16:36:18,100 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 16:36:18,100 polygon_api | Fetching all test cases for 596244, testset
+[INFO] 2026-10-07 16:36:18,972 polygon_api | Found 13 test cases to process
+[INFO] 2026-10-07 16:36:18,972 polygon_api | Processing test case 1/13 (index: 1)
+[DEBUG] 2026-10-07 16:36:18,972 polygon_api | Fetching input for test case 1
+[DEBUG] 2026-10-07 16:36:19,881 polygon_api | Fetching output for test case 1
+[INFO] 2026-10-07 16:36:21,115 polygon_api | Successfully fetched test case 1 - Input length: 5, Output length: 4
+[INFO] 2026-10-07 16:36:21,115 polygon_api | Processing test case 2/13 (index: 2)
+[DEBUG] 2026-10-07 16:36:21,116 polygon_api | Fetching input for test case 2
+[DEBUG] 2026-10-07 16:36:21,937 polygon_api | Fetching output for test case 2
+[INFO] 2026-10-07 16:36:22,959 polygon_api | Successfully fetched test case 2 - Input length: 7, Output length: 4
+[INFO] 2026-10-07 16:36:22,959 polygon_api | Processing test case 3/13 (index: 3)
+[DEBUG] 2026-10-07 16:36:22,959 polygon_api | Fetching input for test case 3
+[DEBUG] 2026-10-07 16:36:23,870 polygon_api | Fetching output for test case 3
+[INFO] 2026-10-07 16:36:24,599 polygon_api | Successfully fetched test case 3 - Input length: 7, Output length: 3
+[INFO] 2026-10-07 16:36:24,599 polygon_api | Processing test case 4/13 (index: 4)
+[DEBUG] 2026-10-07 16:36:24,604 polygon_api | Fetching input for test case 4
+[DEBUG] 2026-10-07 16:36:25,570 polygon_api | Fetching output for test case 4
+[INFO] 2026-10-07 16:36:26,310 polygon_api | Successfully fetched test case 4 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:36:26,312 polygon_api | Processing test case 5/13 (index: 5)
+[DEBUG] 2026-10-07 16:36:26,312 polygon_api | Fetching input for test case 5
+[DEBUG] 2026-10-07 16:36:27,037 polygon_api | Fetching output for test case 5
+[INFO] 2026-10-07 16:36:27,874 polygon_api | Successfully fetched test case 5 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:36:27,875 polygon_api | Processing test case 6/13 (index: 6)
+[DEBUG] 2026-10-07 16:36:27,875 polygon_api | Fetching input for test case 6
+[DEBUG] 2026-10-07 16:36:29,104 polygon_api | Fetching output for test case 6
+[INFO] 2026-10-07 16:36:30,020 polygon_api | Successfully fetched test case 6 - Input length: 7, Output length: 6
+[INFO] 2026-10-07 16:36:30,020 polygon_api | Processing test case 7/13 (index: 7)
+[DEBUG] 2026-10-07 16:36:30,020 polygon_api | Fetching input for test case 7
+[DEBUG] 2026-10-07 16:36:30,945 polygon_api | Fetching output for test case 7
+[INFO] 2026-10-07 16:36:32,482 polygon_api | Successfully fetched test case 7 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:36:32,482 polygon_api | Processing test case 8/13 (index: 8)
+[DEBUG] 2026-10-07 16:36:32,482 polygon_api | Fetching input for test case 8
+[DEBUG] 2026-10-07 16:36:33,404 polygon_api | Fetching output for test case 8
+[INFO] 2026-10-07 16:36:34,427 polygon_api | Successfully fetched test case 8 - Input length: 15, Output length: 8
+[INFO] 2026-10-07 16:36:34,427 polygon_api | Processing test case 9/13 (index: 9)
+[DEBUG] 2026-10-07 16:36:34,427 polygon_api | Fetching input for test case 9
+[DEBUG] 2026-10-07 16:36:35,546 polygon_api | Fetching output for test case 9
+[INFO] 2026-10-07 16:36:36,537 polygon_api | Successfully fetched test case 9 - Input length: 17, Output length: 9
+[INFO] 2026-10-07 16:36:36,537 polygon_api | Processing test case 10/13 (index: 10)
+[DEBUG] 2026-10-07 16:36:36,537 polygon_api | Fetching input for test case 10
+[DEBUG] 2026-10-07 16:36:37,395 polygon_api | Fetching output for test case 10
+[INFO] 2026-10-07 16:36:38,220 polygon_api | Successfully fetched test case 10 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 16:36:38,220 polygon_api | Processing test case 11/13 (index: 11)
+[DEBUG] 2026-10-07 16:36:38,220 polygon_api | Fetching input for test case 11
+[DEBUG] 2026-10-07 16:36:38,990 polygon_api | Fetching output for test case 11
+[INFO] 2026-10-07 16:36:39,853 polygon_api | Successfully fetched test case 11 - Input length: 13, Output length: 7
+[INFO] 2026-10-07 16:36:39,853 polygon_api | Processing test case 12/13 (index: 12)
+[DEBUG] 2026-10-07 16:36:39,853 polygon_api | Fetching input for test case 12
+[DEBUG] 2026-10-07 16:36:40,571 polygon_api | Fetching output for test case 12
+[INFO] 2026-10-07 16:36:41,597 polygon_api | Successfully fetched test case 12 - Input length: 24, Output length: 3
+[INFO] 2026-10-07 16:36:41,597 polygon_api | Processing test case 13/13 (index: 13)
+[DEBUG] 2026-10-07 16:36:41,597 polygon_api | Fetching input for test case 13
+[DEBUG] 2026-10-07 16:36:42,699 polygon_api | Fetching output for test case 13
+[INFO] 2026-10-07 16:36:43,575 polygon_api | Successfully fetched test case 13 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 16:36:43,575 polygon_api | Completed fetching all 13 test cases for problem 596244
+[DEBUG] 2026-10-07 16:36:43,575 views | Fetched all test cases.
+[INFO] 2026-10-07 16:36:45,619 polygon_api | Stored 13 test cases in Redis for polygon_id 596244
+[DEBUG] 2026-10-07 16:36:46,654 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 16:36:46,655 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 16:36:47,390 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 16:36:47,390 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 16:36:47,390 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 16:36:48,068 views | test_case_count=13
+[INFO] 2026-10-07 16:36:48,068 views | Exiting index view
+[INFO] 2026-10-07 16:36:56,173 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:36:56,183 views | POST data: polygon_id=596244, migrate_to_storage=1, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:36:56,183 views | All POST data: {'csrfmiddlewaretoken': ['Mg3q3qVTPTYCS7le76LPBKxvKtLBnLG2Ph5vjklaDpQWc56aq9p1umTFbHcPZujw'], 'problem_id': ['596244'], 'migrate_to_azure': ['1']}
+[INFO] 2026-10-07 16:36:56,183 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:36:56,189 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:36:57,624 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:36:58,403 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:36:59,516 views | Storage migration triggered for polygon_id=596244
+[INFO] 2026-10-07 16:36:59,527 views | Storage migration params: problem_id=1
+[INFO] 2026-10-07 16:36:59,527 polygon_api | pattern oj_dev_with_redis_storage_test_cases_1*
+[INFO] 2026-10-07 16:37:01,561 views | Calling migrate_to_storage
+[INFO] 2026-10-07 16:37:02,054 polygon_api | Starting storage migration for problem 596244
+[INFO] 2026-10-07 16:37:04,096 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:37:04,102 polygon_api | Retrieved test cases from Redis for storage migration
+[INFO] 2026-10-07 16:37:04,102 polygon_api | Retrieved 13 test cases for storage migration
+[INFO] 2026-10-07 16:37:04,102 polygon_api | Using problem_id_for_naming: 1
+[ERROR] 2026-10-07 16:37:04,102 views | Storage migration failed: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 406, in index
+    api.migrate_to_storage(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 795, in migrate_to_storage
+    storage_manager = get_storage_manager()
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\storage.py", line 9, in get_storage_manager
+    return GoogleDriveManager(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\googledrivetestcase.py", line 26, in __init__
+    credentials = service_account.Credentials.from_service_account_file(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\google\oauth2\service_account.py", line 272, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\google\auth\_service_account_info.py", line 77, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+[ERROR] 2026-10-07 16:37:04,115 views | Exception in index view: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 406, in index
+    api.migrate_to_storage(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 795, in migrate_to_storage
+    storage_manager = get_storage_manager()
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\storage.py", line 9, in get_storage_manager
+    return GoogleDriveManager(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\googledrivetestcase.py", line 26, in __init__
+    credentials = service_account.Credentials.from_service_account_file(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\google\oauth2\service_account.py", line 272, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\google\auth\_service_account_info.py", line 77, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+[INFO] 2026-10-07 16:37:06,145 polygon_api | Cleared 14 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:37:06,145 views | Exiting index view
+[INFO] 2026-10-07 16:45:44,868 googledrivetestcase | Google Drive connection initialized successfully.
+[INFO] 2026-10-07 16:46:13,498 views | Entered index view with method=GET
+[INFO] 2026-10-07 16:46:13,530 views | Exiting index view
+[INFO] 2026-10-07 16:46:30,587 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:46:30,597 views | POST data: polygon_id=596244, migrate_to_storage=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:46:30,597 views | All POST data: {'csrfmiddlewaretoken': ['wlhWZDSqaSeTZyPwDQ709ZCDihnnLJPOzmj1fxiHYo6djwAsWTLc2BYNJvOBnssi'], 'problem_id': ['596244']}
+[INFO] 2026-10-07 16:46:30,598 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:46:30,610 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:46:32,336 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:46:32,845 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:46:33,260 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:46:33,663 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:46:33,663 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:46:33,673 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 16:46:33,678 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:46:34,180 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:46:36,831 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 16:46:36,856 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpcqau9t69
+[DEBUG] 2026-10-07 16:46:36,857 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 16:46:36,860 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 16:46:36,862 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 16:46:36,862 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 16:46:36,862 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 16:46:36,862 polygon_api | Fetching all test cases for 596244, testset
+[INFO] 2026-10-07 16:46:37,319 polygon_api | Found 13 test cases to process
+[INFO] 2026-10-07 16:46:37,319 polygon_api | Processing test case 1/13 (index: 1)
+[DEBUG] 2026-10-07 16:46:37,319 polygon_api | Fetching input for test case 1
+[DEBUG] 2026-10-07 16:46:37,947 polygon_api | Fetching output for test case 1
+[INFO] 2026-10-07 16:46:38,891 polygon_api | Successfully fetched test case 1 - Input length: 5, Output length: 4
+[INFO] 2026-10-07 16:46:38,892 polygon_api | Processing test case 2/13 (index: 2)
+[DEBUG] 2026-10-07 16:46:38,894 polygon_api | Fetching input for test case 2
+[DEBUG] 2026-10-07 16:46:39,505 polygon_api | Fetching output for test case 2
+[INFO] 2026-10-07 16:46:40,330 polygon_api | Successfully fetched test case 2 - Input length: 7, Output length: 4
+[INFO] 2026-10-07 16:46:40,334 polygon_api | Processing test case 3/13 (index: 3)
+[DEBUG] 2026-10-07 16:46:40,335 polygon_api | Fetching input for test case 3
+[DEBUG] 2026-10-07 16:46:40,937 polygon_api | Fetching output for test case 3
+[INFO] 2026-10-07 16:46:41,450 polygon_api | Successfully fetched test case 3 - Input length: 7, Output length: 3
+[INFO] 2026-10-07 16:46:41,450 polygon_api | Processing test case 4/13 (index: 4)
+[DEBUG] 2026-10-07 16:46:41,450 polygon_api | Fetching input for test case 4
+[DEBUG] 2026-10-07 16:46:41,964 polygon_api | Fetching output for test case 4
+[INFO] 2026-10-07 16:46:42,578 polygon_api | Successfully fetched test case 4 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:46:42,578 polygon_api | Processing test case 5/13 (index: 5)
+[DEBUG] 2026-10-07 16:46:42,578 polygon_api | Fetching input for test case 5
+[DEBUG] 2026-10-07 16:46:43,080 polygon_api | Fetching output for test case 5
+[INFO] 2026-10-07 16:46:43,576 polygon_api | Successfully fetched test case 5 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:46:43,576 polygon_api | Processing test case 6/13 (index: 6)
+[DEBUG] 2026-10-07 16:46:43,576 polygon_api | Fetching input for test case 6
+[DEBUG] 2026-10-07 16:46:44,114 polygon_api | Fetching output for test case 6
+[INFO] 2026-10-07 16:46:44,726 polygon_api | Successfully fetched test case 6 - Input length: 7, Output length: 6
+[INFO] 2026-10-07 16:46:44,726 polygon_api | Processing test case 7/13 (index: 7)
+[DEBUG] 2026-10-07 16:46:44,726 polygon_api | Fetching input for test case 7
+[DEBUG] 2026-10-07 16:46:45,197 polygon_api | Fetching output for test case 7
+[INFO] 2026-10-07 16:46:45,744 polygon_api | Successfully fetched test case 7 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:46:45,744 polygon_api | Processing test case 8/13 (index: 8)
+[DEBUG] 2026-10-07 16:46:45,757 polygon_api | Fetching input for test case 8
+[DEBUG] 2026-10-07 16:46:46,468 polygon_api | Fetching output for test case 8
+[INFO] 2026-10-07 16:46:47,290 polygon_api | Successfully fetched test case 8 - Input length: 15, Output length: 8
+[INFO] 2026-10-07 16:46:47,292 polygon_api | Processing test case 9/13 (index: 9)
+[DEBUG] 2026-10-07 16:46:47,294 polygon_api | Fetching input for test case 9
+[DEBUG] 2026-10-07 16:46:48,002 polygon_api | Fetching output for test case 9
+[INFO] 2026-10-07 16:46:48,542 polygon_api | Successfully fetched test case 9 - Input length: 17, Output length: 9
+[INFO] 2026-10-07 16:46:48,545 polygon_api | Processing test case 10/13 (index: 10)
+[DEBUG] 2026-10-07 16:46:48,545 polygon_api | Fetching input for test case 10
+[DEBUG] 2026-10-07 16:46:49,426 polygon_api | Fetching output for test case 10
+[INFO] 2026-10-07 16:46:49,952 polygon_api | Successfully fetched test case 10 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 16:46:49,952 polygon_api | Processing test case 11/13 (index: 11)
+[DEBUG] 2026-10-07 16:46:49,952 polygon_api | Fetching input for test case 11
+[DEBUG] 2026-10-07 16:46:50,659 polygon_api | Fetching output for test case 11
+[INFO] 2026-10-07 16:46:51,225 polygon_api | Successfully fetched test case 11 - Input length: 13, Output length: 7
+[INFO] 2026-10-07 16:46:51,226 polygon_api | Processing test case 12/13 (index: 12)
+[DEBUG] 2026-10-07 16:46:51,228 polygon_api | Fetching input for test case 12
+[DEBUG] 2026-10-07 16:46:51,793 polygon_api | Fetching output for test case 12
+[INFO] 2026-10-07 16:46:52,711 polygon_api | Successfully fetched test case 12 - Input length: 24, Output length: 3
+[INFO] 2026-10-07 16:46:52,711 polygon_api | Processing test case 13/13 (index: 13)
+[DEBUG] 2026-10-07 16:46:52,711 polygon_api | Fetching input for test case 13
+[DEBUG] 2026-10-07 16:46:53,345 polygon_api | Fetching output for test case 13
+[INFO] 2026-10-07 16:46:53,842 polygon_api | Successfully fetched test case 13 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 16:46:53,842 polygon_api | Completed fetching all 13 test cases for problem 596244
+[DEBUG] 2026-10-07 16:46:53,842 views | Fetched all test cases.
+[INFO] 2026-10-07 16:46:55,864 polygon_api | Stored 13 test cases in Redis for polygon_id 596244
+[DEBUG] 2026-10-07 16:46:56,299 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 16:46:56,299 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 16:46:56,809 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 16:46:56,809 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 16:46:56,809 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 16:46:57,239 views | test_case_count=13
+[INFO] 2026-10-07 16:46:57,242 views | Exiting index view
+[INFO] 2026-10-07 16:47:09,241 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:47:09,259 views | POST data: polygon_id=596244, migrate_to_storage=1, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:47:09,259 views | All POST data: {'csrfmiddlewaretoken': ['UVJRLUWeAtajOxMZ298NPbrfii7uxtW0XWLW1OmvoZ2D8vxVlcMZINNpJwyI9czu'], 'problem_id': ['596244'], 'migrate_to_azure': ['1']}
+[INFO] 2026-10-07 16:47:09,259 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:47:09,267 views | db_problem=Sum of Two Numbers
+[ERROR] 2026-10-07 16:47:09,808 views | Error fetching solution: HTTP Request Error: 502 Server Error: Bad Gateway for url: https://polygon.codeforces.com/api/problem.updateWorkingCopy
+[INFO] 2026-10-07 16:47:09,817 views | Storage migration triggered for polygon_id=596244
+[INFO] 2026-10-07 16:47:09,817 views | Storage migration params: problem_id=1
+[INFO] 2026-10-07 16:47:09,817 polygon_api | pattern oj_dev_with_redis_storage_test_cases_1*
+[INFO] 2026-10-07 16:47:11,872 views | Calling migrate_to_storage
+[INFO] 2026-10-07 16:47:12,186 polygon_api | Starting storage migration for problem 596244
+[INFO] 2026-10-07 16:47:14,243 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:47:14,243 polygon_api | Retrieved test cases from Redis for storage migration
+[INFO] 2026-10-07 16:47:14,243 polygon_api | Retrieved 13 test cases for storage migration
+[INFO] 2026-10-07 16:47:14,243 polygon_api | Using problem_id_for_naming: 1
+[INFO] 2026-10-07 16:47:14,324 googledrivetestcase | Google Drive connection initialized successfully.
+[INFO] 2026-10-07 16:47:14,327 polygon_api | Deleting existing test cases from configured storage
+[ERROR] 2026-10-07 16:47:20,767 views | Storage migration failed: <HttpError 403 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=multipart returned "Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.". Details: "[{'message': 'Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.', 'domain': 'usageLimits', 'reason': 'storageQuotaExceeded'}]">
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 406, in index
+    api.migrate_to_storage(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 817, in migrate_to_storage
+    storage_manager.upload_test_case(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\googledrivetestcase.py", line 144, in upload_test_case
+    self._upload_file(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\googledrivetestcase.py", line 117, in _upload_file
+    ).execute()
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\googleapiclient\http.py", line 1018, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 403 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=multipart returned "Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.". Details: "[{'message': 'Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.', 'domain': 'usageLimits', 'reason': 'storageQuotaExceeded'}]">
+[ERROR] 2026-10-07 16:47:20,783 views | Exception in index view: <HttpError 403 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=multipart returned "Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.". Details: "[{'message': 'Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.', 'domain': 'usageLimits', 'reason': 'storageQuotaExceeded'}]">
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 406, in index
+    api.migrate_to_storage(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 817, in migrate_to_storage
+    storage_manager.upload_test_case(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\googledrivetestcase.py", line 144, in upload_test_case
+    self._upload_file(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\googledrivetestcase.py", line 117, in _upload_file
+    ).execute()
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\venv\lib\site-packages\googleapiclient\http.py", line 1018, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 403 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=multipart returned "Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.". Details: "[{'message': 'Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.', 'domain': 'usageLimits', 'reason': 'storageQuotaExceeded'}]">
+[INFO] 2026-10-07 16:47:22,807 polygon_api | Cleared 14 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:47:22,807 views | Exiting index view
+[INFO] 2026-10-07 16:50:10,471 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:50:10,477 views | POST data: polygon_id=596244, migrate_to_storage=None, migrate_to_db=1, migrate_test_cases_to_db=None, difficulty=easy, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:50:10,477 views | All POST data: {'csrfmiddlewaretoken': ['UVJRLUWeAtajOxMZ298NPbrfii7uxtW0XWLW1OmvoZ2D8vxVlcMZINNpJwyI9czu'], 'problem_id': ['596244'], 'migrate_to_db': ['1'], 'difficulty': ['easy']}
+[INFO] 2026-10-07 16:50:10,481 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:50:10,494 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:50:12,497 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:50:12,905 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:50:13,476 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:50:14,138 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:50:14,138 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:50:14,138 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 16:50:14,138 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:50:14,848 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:50:18,290 polygon_api | Successfully read problem.html content, length: 2286 characters
+[DEBUG] 2026-10-07 16:50:18,313 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpv8rqimfd
+[DEBUG] 2026-10-07 16:50:18,314 views | Downloaded and extracted problem_html_content, length: 2286
+[INFO] 2026-10-07 16:50:18,314 views | Entered parse_problem_html with content length=2286
+[DEBUG] 2026-10-07 16:50:18,314 views | Extracted title=Sum of Two Numbers, legend length=65, input_format length=68, output_format length=32
+[INFO] 2026-10-07 16:50:18,317 views | Exiting parse_problem_html
+[DEBUG] 2026-10-07 16:50:18,317 views | Parsed html_data: {'title': 'Sum of Two Numbers', 'legend': '<p>Given two integers A and B, calculate and print their sum.</p>', 'input_format': '<p>The input contains two integers A and B separated by a space.</p>', 'output_format': '<p>Print the sum of A and B.</p>', 'notes': ''}
+[INFO] 2026-10-07 16:50:20,355 polygon_api | No test cases found in Redis for polygon_id 596244
+[WARNING] 2026-10-07 16:50:20,359 views | Test cases not found in Redis, fetching from Polygon
+[INFO] 2026-10-07 16:50:20,359 polygon_api | Fetching all test cases for 596244, testset
+[INFO] 2026-10-07 16:50:20,894 polygon_api | Found 13 test cases to process
+[INFO] 2026-10-07 16:50:20,895 polygon_api | Processing test case 1/13 (index: 1)
+[DEBUG] 2026-10-07 16:50:20,895 polygon_api | Fetching input for test case 1
+[DEBUG] 2026-10-07 16:50:23,043 polygon_api | Fetching output for test case 1
+[INFO] 2026-10-07 16:50:24,375 polygon_api | Successfully fetched test case 1 - Input length: 5, Output length: 4
+[INFO] 2026-10-07 16:50:24,375 polygon_api | Processing test case 2/13 (index: 2)
+[DEBUG] 2026-10-07 16:50:24,375 polygon_api | Fetching input for test case 2
+[DEBUG] 2026-10-07 16:50:26,835 polygon_api | Fetching output for test case 2
+[INFO] 2026-10-07 16:50:27,752 polygon_api | Successfully fetched test case 2 - Input length: 7, Output length: 4
+[INFO] 2026-10-07 16:50:27,752 polygon_api | Processing test case 3/13 (index: 3)
+[DEBUG] 2026-10-07 16:50:27,753 polygon_api | Fetching input for test case 3
+[DEBUG] 2026-10-07 16:50:28,673 polygon_api | Fetching output for test case 3
+[INFO] 2026-10-07 16:50:29,290 polygon_api | Successfully fetched test case 3 - Input length: 7, Output length: 3
+[INFO] 2026-10-07 16:50:29,290 polygon_api | Processing test case 4/13 (index: 4)
+[DEBUG] 2026-10-07 16:50:29,290 polygon_api | Fetching input for test case 4
+[DEBUG] 2026-10-07 16:50:29,905 polygon_api | Fetching output for test case 4
+[INFO] 2026-10-07 16:50:30,405 polygon_api | Successfully fetched test case 4 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:50:30,414 polygon_api | Processing test case 5/13 (index: 5)
+[DEBUG] 2026-10-07 16:50:30,414 polygon_api | Fetching input for test case 5
+[DEBUG] 2026-10-07 16:50:30,921 polygon_api | Fetching output for test case 5
+[INFO] 2026-10-07 16:50:31,539 polygon_api | Successfully fetched test case 5 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:50:31,539 polygon_api | Processing test case 6/13 (index: 6)
+[DEBUG] 2026-10-07 16:50:31,539 polygon_api | Fetching input for test case 6
+[DEBUG] 2026-10-07 16:50:32,153 polygon_api | Fetching output for test case 6
+[INFO] 2026-10-07 16:50:32,562 polygon_api | Successfully fetched test case 6 - Input length: 7, Output length: 6
+[INFO] 2026-10-07 16:50:32,562 polygon_api | Processing test case 7/13 (index: 7)
+[DEBUG] 2026-10-07 16:50:32,562 polygon_api | Fetching input for test case 7
+[DEBUG] 2026-10-07 16:50:33,041 polygon_api | Fetching output for test case 7
+[INFO] 2026-10-07 16:50:33,488 polygon_api | Successfully fetched test case 7 - Input length: 9, Output length: 5
+[INFO] 2026-10-07 16:50:33,488 polygon_api | Processing test case 8/13 (index: 8)
+[DEBUG] 2026-10-07 16:50:33,488 polygon_api | Fetching input for test case 8
+[DEBUG] 2026-10-07 16:50:34,103 polygon_api | Fetching output for test case 8
+[INFO] 2026-10-07 16:50:34,855 polygon_api | Successfully fetched test case 8 - Input length: 15, Output length: 8
+[INFO] 2026-10-07 16:50:34,855 polygon_api | Processing test case 9/13 (index: 9)
+[DEBUG] 2026-10-07 16:50:34,855 polygon_api | Fetching input for test case 9
+[DEBUG] 2026-10-07 16:50:35,729 polygon_api | Fetching output for test case 9
+[INFO] 2026-10-07 16:50:36,138 polygon_api | Successfully fetched test case 9 - Input length: 17, Output length: 9
+[INFO] 2026-10-07 16:50:36,138 polygon_api | Processing test case 10/13 (index: 10)
+[DEBUG] 2026-10-07 16:50:36,138 polygon_api | Fetching input for test case 10
+[DEBUG] 2026-10-07 16:50:36,866 polygon_api | Fetching output for test case 10
+[INFO] 2026-10-07 16:50:37,376 polygon_api | Successfully fetched test case 10 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 16:50:37,376 polygon_api | Processing test case 11/13 (index: 11)
+[DEBUG] 2026-10-07 16:50:37,376 polygon_api | Fetching input for test case 11
+[DEBUG] 2026-10-07 16:50:37,888 polygon_api | Fetching output for test case 11
+[INFO] 2026-10-07 16:50:38,808 polygon_api | Successfully fetched test case 11 - Input length: 13, Output length: 7
+[INFO] 2026-10-07 16:50:38,808 polygon_api | Processing test case 12/13 (index: 12)
+[DEBUG] 2026-10-07 16:50:38,808 polygon_api | Fetching input for test case 12
+[DEBUG] 2026-10-07 16:50:39,245 polygon_api | Fetching output for test case 12
+[INFO] 2026-10-07 16:50:39,842 polygon_api | Successfully fetched test case 12 - Input length: 24, Output length: 3
+[INFO] 2026-10-07 16:50:39,842 polygon_api | Processing test case 13/13 (index: 13)
+[DEBUG] 2026-10-07 16:50:39,842 polygon_api | Fetching input for test case 13
+[DEBUG] 2026-10-07 16:50:40,555 polygon_api | Fetching output for test case 13
+[INFO] 2026-10-07 16:50:41,793 polygon_api | Successfully fetched test case 13 - Input length: 5, Output length: 3
+[INFO] 2026-10-07 16:50:41,793 polygon_api | Completed fetching all 13 test cases for problem 596244
+[INFO] 2026-10-07 16:50:43,826 polygon_api | Stored 13 test cases in Redis for polygon_id 596244
+[DEBUG] 2026-10-07 16:50:44,439 views | checker_type=std::wcmp.cpp
+[INFO] 2026-10-07 16:50:44,439 polygon_api | Fetching custom checker info for problem 596244
+[DEBUG] 2026-10-07 16:50:45,057 polygon_api | Raw checker info: std::wcmp.cpp
+[INFO] 2026-10-07 16:50:45,057 polygon_api | No custom checker found, using standard checker: std::wcmp.cpp
+[INFO] 2026-10-07 16:50:45,057 polygon_api | Fetching test cases for 596244, testset
+[DEBUG] 2026-10-07 16:50:45,474 views | test_case_count=13
+[INFO] 2026-10-07 16:50:45,474 views | Starting DB migration for polygon_id=596244
+[INFO] 2026-10-07 16:50:45,483 views | Updating existing Problem in DB
+[INFO] 2026-10-07 16:50:45,504 views | Processing tags for problem
+[DEBUG] 2026-10-07 16:50:45,504 views | Selected tags before processing: []
+[DEBUG] 2026-10-07 16:50:45,504 views | New tag before processing: 
+[DEBUG] 2026-10-07 16:50:45,507 views | Cleared existing tags for problem 1
+[DEBUG] 2026-10-07 16:50:45,509 views | Final tags after processing: []
+[INFO] 2026-10-07 16:50:47,555 polygon_api | Retrieved 13 test cases from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:50:47,555 views | Retrieved test cases from Redis for test case migration to DB
+[DEBUG] 2026-10-07 16:50:48,009 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:50:48,463 views | Exiting index view
+[INFO] 2026-10-07 16:51:18,073 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:51:18,080 views | POST data: polygon_id=596244, migrate_to_storage=None, migrate_to_db=1, migrate_test_cases_to_db=None, difficulty=easy, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:51:18,080 views | All POST data: {'csrfmiddlewaretoken': ['zUiZ4pCS9EOHYnVCsS7ECXJRmHkd6zXGCVk4kj29XaG1ilGyLVLQvz51NVLrIiAa'], 'problem_id': ['596244'], 'migrate_to_db': ['1'], 'difficulty': ['easy']}
+[INFO] 2026-10-07 16:51:18,080 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:51:18,096 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:51:19,459 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:51:19,875 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:51:20,388 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:51:21,918 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:51:21,918 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:51:21,918 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 16:51:21,926 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:51:22,433 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:51:25,435 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmpn7upys69
+[ERROR] 2026-10-07 16:51:25,435 views | Exception in index view: Error downloading/extracting package: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 211, in download_and_extract_package
+    zip_ref.extractall(extract_dir)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1643, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1698, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 198, in copyfileobj
+    fdst_write(buf)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 462, in index
+    api.download_and_extract_package(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 234, in download_and_extract_package
+    raise Exception(f"Error downloading/extracting package: {e}")
+Exception: Error downloading/extracting package: [Errno 28] No space left on device
+[INFO] 2026-10-07 16:51:27,626 polygon_api | Cleared 14 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:51:27,626 views | Exiting index view
+[INFO] 2026-10-07 16:51:45,726 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:51:45,726 views | POST data: polygon_id=596244, migrate_to_storage=None, migrate_to_db=1, migrate_test_cases_to_db=None, difficulty=easy, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:51:45,726 views | All POST data: {'csrfmiddlewaretoken': ['zUiZ4pCS9EOHYnVCsS7ECXJRmHkd6zXGCVk4kj29XaG1ilGyLVLQvz51NVLrIiAa'], 'problem_id': ['596244'], 'migrate_to_db': ['1'], 'difficulty': ['easy']}
+[INFO] 2026-10-07 16:51:45,726 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:51:45,736 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:51:46,887 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:51:47,623 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:51:48,280 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:51:48,970 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:51:48,970 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:51:48,972 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 16:51:48,972 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:51:49,623 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:51:52,248 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmp41k4ejja
+[ERROR] 2026-10-07 16:51:52,248 views | Exception in index view: Error downloading/extracting package: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 211, in download_and_extract_package
+    zip_ref.extractall(extract_dir)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1643, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1698, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 198, in copyfileobj
+    fdst_write(buf)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 462, in index
+    api.download_and_extract_package(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 234, in download_and_extract_package
+    raise Exception(f"Error downloading/extracting package: {e}")
+Exception: Error downloading/extracting package: [Errno 28] No space left on device
+[INFO] 2026-10-07 16:51:54,286 polygon_api | Cleared 0 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:51:54,289 views | Exiting index view
+[INFO] 2026-10-07 16:52:09,051 views | Entered index view with method=POST
+[DEBUG] 2026-10-07 16:52:09,057 views | POST data: polygon_id=596244, migrate_to_storage=None, migrate_to_db=1, migrate_test_cases_to_db=None, difficulty=easy, selected_tags=[], new_tag=
+[DEBUG] 2026-10-07 16:52:09,057 views | All POST data: {'csrfmiddlewaretoken': ['zUiZ4pCS9EOHYnVCsS7ECXJRmHkd6zXGCVk4kj29XaG1ilGyLVLQvz51NVLrIiAa'], 'problem_id': ['596244'], 'migrate_to_db': ['1'], 'difficulty': ['easy']}
+[INFO] 2026-10-07 16:52:09,057 views | Processing polygon_id=596244
+[DEBUG] 2026-10-07 16:52:09,071 views | db_problem=Sum of Two Numbers
+[DEBUG] 2026-10-07 16:52:10,563 views | Updated working copy: None
+[DEBUG] 2026-10-07 16:52:11,686 views | Fetched solutions: [{'name': 'main.cpp', 'modificationTimeSeconds': 1791303379, 'length': 153, 'tag': 'MA', 'sourceType': 'cpp.g++17'}]
+[INFO] 2026-10-07 16:52:12,428 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:52:13,229 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:52:13,229 views | Polygon problem info: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-07 16:52:13,229 polygon_api | Downloading package for problem 596244
+[INFO] 2026-10-07 16:52:13,229 polygon_api | Fetching problem info for 596244
+[INFO] 2026-10-07 16:52:13,844 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[DEBUG] 2026-10-07 16:52:16,469 polygon_api | Cleaned up temporary directory: C:\Users\USHA\AppData\Local\Temp\tmp5vlb56el
+[ERROR] 2026-10-07 16:52:16,469 views | Exception in index view: Error downloading/extracting package: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 211, in download_and_extract_package
+    zip_ref.extractall(extract_dir)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1643, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1698, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "C:\Users\USHA\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 198, in copyfileobj
+    fdst_write(buf)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\views.py", line 462, in index
+    api.download_and_extract_package(
+  File "C:\Users\USHA\Downloads\Polygon-migration-assignment\Polygon-migration-assignment\PolygonMigration\problems\polygon_api.py", line 234, in download_and_extract_package
+    raise Exception(f"Error downloading/extracting package: {e}")
+Exception: Error downloading/extracting package: [Errno 28] No space left on device
+[INFO] 2026-10-07 16:52:18,498 polygon_api | Cleared 0 test case keys from Redis for polygon_id 596244
+[INFO] 2026-10-07 16:52:18,498 views | Exiting index view
